@@ -1,1 +1,3 @@
 /target 
+# Ignore Rust build output everywhere
+**/target/
