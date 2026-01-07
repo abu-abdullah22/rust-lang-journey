@@ -31,6 +31,7 @@
 // third rule example
 fn main(){
     let s1 = String::from("Rust");
+    println!("s1 = {}", s1);
 }
 
 // s1 goes out of scope here and the memory is freed
