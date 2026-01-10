@@ -28,10 +28,10 @@ fn main() {
 
     let con = true;
     let n = if con { 7 } else { 14 };
-    let m = if con {
-        7
-    } else {
-        "14"
-    };
+    // let m = if con {
+    //     7
+    // } else {
+    //     "14"
+    // }; // This will throw an error because both branches must return the same type
     println!("The value of n is: {n}");
-}
+}         
